@@ -1,0 +1,41 @@
+{
+  "name": "job-scanner",
+  "version": "1.0.0",
+  "description": "A job scraper with AI to find the best jobs for you",
+  "private": true,
+  "author": "Michael Milawski",
+  "license": "MIT",
+  "keywords": [
+    "indeed",
+    "scraper",
+    "openai",
+    "ai",
+    "puppeteer"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "get-jobs": "node scraper/get-jobs.js",
+    "hydrate-jobs": "node scraper/hydrate-jobs.js",
+    "check-jobs": "node scraper/check-jobs.js",
+    "reset-jobs": "node scraper/reset-jobs.js"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.17",
+    "@mui/x-data-grid": "^7.3.2",
+    "mongodb": "^6.6.1",
+    "next": "latest",
+    "openai": "^4.42.0",
+    "puppeteer": "^22.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.11",
+    "@types/react": "^18.3.1",
+    "typescript": "^5.0.0"
+  }
+}

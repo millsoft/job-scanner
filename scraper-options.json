@@ -1,0 +1,12 @@
+{
+    "pages": 1,
+    "searches" : [
+        {
+            "keyword": "php",
+            "pages": 2
+        },
+        {
+            "keyword": "javascript"
+        }
+    ]
+}
