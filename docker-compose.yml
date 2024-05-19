@@ -9,6 +9,8 @@ services:
       - mongodb
     env_file:
       - .env.local
+    volumes:
+      - ./scraper-options.json:/usr/src/app/scraper-options.json
   mongodb:
     image: mongo:latest
     container_name: mongodb

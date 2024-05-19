@@ -2,6 +2,8 @@
 
 This project will scrape jobs from Indeed, store the jobs into a MongoDB database and analyze the jobs with AI. You can run it every day and create a personal database of relevant jobs. AI will also check if the job is good for you so you don't have to waste your time.
 
+![Job Scanner Frontend Screenshot](doc/jobscanner-frontend.png)
+
 ## Motivation
 
 I made this to help me find a good job which fits my requirments, without the need to go through each job description one by one. The Open AI Assistant will check the job description for me and decide if the hob is good for me. The bot will output a json object which I can add to the database.
