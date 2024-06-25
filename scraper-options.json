@@ -1,12 +1,17 @@
 {
-    "pages": 1,
+    "pages": 5,
     "searches" : [
         {
-            "keyword": "php",
-            "pages": 2
+            "keyword": "php"
         },
         {
             "keyword": "javascript"
+        },
+        {
+            "keyword": "fullstack"
+        },
+        {
+            "keyword": "web developer"
         }
     ]
 }
